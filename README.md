@@ -2,6 +2,8 @@
 
 Pasta Timers mostra i tempi di cottura raccomandati per le tipologie e i marchi di pasta più comuni sul mercato.
 
+![screenshot](https://repository-images.githubusercontent.com/214686946/4b0a8980-ed27-11e9-827f-88954c137291)
+
 ## Come si installa
 
 Puoi usare questa applicazione dal browser oppure installarla sul tuo smartphone cliccando su Menù > Aggiungi a schermata Home (su Chrome).
