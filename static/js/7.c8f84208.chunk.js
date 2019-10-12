@@ -1,0 +1,2 @@
+(this["webpackJsonppasta-timer"]=this["webpackJsonppasta-timer"]||[]).push([[7],{217:function(t,e,n){"use strict";n.d(e,"a",(function(){return r}));var r=function(t){return t.favorites||[]}},249:function(t,e,n){"use strict";n.r(e),n.d(e,"default",(function(){return c}));var r=n(0),a=n.n(r),i=n(46),s=n(26),u=n(217);function c(){var t=Object(i.e)(u.a);return a.a.createElement(s.a,{to:t.length?"/favorites":"/timers"})}}}]);
+//# sourceMappingURL=7.c8f84208.chunk.js.map
