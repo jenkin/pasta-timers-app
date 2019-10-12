@@ -1,0 +1,40 @@
+{
+  "name": "pasta-timer",
+  "version": "0.1.0",
+  "author": "Alessio Cimarelli <alessio.cimarelli@gmail.com> (https://about.me/alessio.cimarelli)",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenkin/pasta-timer-app"
+  },
+  "homepage": "https://pastatimer.app",
+  "keywords": ["react","material-ui","pwa","pasta","time"],
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "git subtree push --prefix build origin gh-pages"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
