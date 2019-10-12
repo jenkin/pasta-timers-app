@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pasta Timers App
 
-## Available Scripts
+Pasta Timers mostra i tempi di cottura raccomandati per le tipologie e i marchi di pasta più comuni sul mercato.
 
-In the project directory, you can run:
+## Come si installa
 
-### `npm start`
+Puoi usare questa applicazione dal browser oppure installarla sul tuo smartphone cliccando su Menù > Aggiungi a schermata Home (su Chrome).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Come si usa
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Usa i pulsanti in basso per cercare il tempo di cottura della tua pasta (icona a sinistra)
+o per accedere velocemente alle tue paste preferite (icona a destra).
+Tocca l'icona del cuore per aggiungere o rimuovere una pasta dalla lista delle tue preferite.
+Tocca l'immagine di una pasta per aprire la pagina ufficiale del produttore e scoprire tutti i dettagli e le ricette consigliate.
 
-### `npm test`
+## Come contribuire
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+L'applicazione è una Progressive Web App basata su React e Create React App.
+Il database dei tempi di cottura è un file statico in `build/timers.json`.
 
-### `npm run build`
+Per contribuire al database apri una issue con queste informazioni:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* nome
+* marca
+* linea
+* tipo di pasta (corta o lunga)
+* tempo di cottura al dente (in minuti)
+* url della pagina ufficiale (sul sito del produttore)
+* url dell'immagine ufficiale (sul sito del produttore)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Cuocere la pasta
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Far bollire una sufficiente quantità di acqua in una pentola dai bordi alti con un coperchio.
+Dosare circa 100 gr di pasta per persona.
+Quando l'acqua arriva a bollore salare con un cucchiaino di sale grosso per ogni 700 ml d'acqua.
+Buttare la pasta e coprire la pentola finché l'acqua non riprende a bollire, quindi spegnere il fuoco.
+Cuocere per il tempo indicato a partire dalla ripresa del bollore.
+Girare con un mestolo un paio di volte durante la cottura.
+Scolare la pasta, condire a volontà e servire ben calda.
+L'acqua calda di cottura può essere usata in piccole dosi nel condimento oppure per lavare a mano i piatti.
 
-### `npm run eject`
+## Avvertenze
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+I tempi di cottura indicati sono da intendersi per una cottura "al dente" così come raccomandati dai produttori.
+Per una pasta più morbida al palato aggiungere uno o due minuti secondo il proprio gusto.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Garanzie
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Questa applicazione viene fornita così com'è, senza garanzie di alcun tipo, esplicite o implicite.
+In nessun caso gli autori o i titolari del copyright saranno responsabili per qualsiasi reclamo, danno o altro tipo di responsabilità.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Dati personali
 
-## Learn More
+Questa applicazione non raccoglie alcun dato personale dell'utente.
+L'hosting dell'applicazione è gestito da Github (vedi <a href="https://pages.github.com/" rel="noopener noreferrer" target="_blank">Github Pages</a>).
+Il salvataggio dei preferiti avviene sul device dell'utente mediante <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" rel="noopener noreferrer" target="_blank">localStorage</a>.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Copyright
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tutti i marchi registrati e tutte le immagini sono dei rispettivi proprietari e sono residenti sui loro server.
+L'autore del logo dell'applicazione è <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> di <a href="https://www.flaticon.com/" title="Flaticon">flaticon.com</a>.
 
-### Code Splitting
+## Licenze di riutilizzo
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Il codice sorgente di questa applicazione è rilasciato in open source con licenza <a href="https://tldrlegal.com/license/mit-license" rel="noopener noreferrer" target="_blank">MIT</a>.
+Il database dei tempi di cottura della pasta (file timers.json) è rilasciato con licenza <a href="https://tldrlegal.com/license/odc-open-database-license-(odbl)" rel="noopener noreferrer" target="_blank">ODbL</a>.
 
-### Analyzing the Bundle Size
+## Contatti
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Per segnalare malfunzionamenti, suggerire una modifica o fare una domanda puoi aprire una issue sul repository del progetto su <a href="https://github.com/jenkin/pasta-timers-app/issues" rel="noopener noreferrer" target="_blank">Github</a>.

@@ -1,0 +1,16 @@
+{
+    "info": "Informazioni sull'applicazione",
+    "timers": {
+        "title": "Tutti i timer",
+        "search": "Cerca per nome o per marca",
+        "example": "es. spaghetti",
+        "select": "Cerca per marca",
+        "none": "Nessun prodotto disponibile!"
+    },
+    "favorites": {
+        "title": "I tuoi preferiti",
+        "add": "Aggiungi ai preferiti",
+        "remove": "Rimuovi dai preferiti",
+        "none": "La tua lista preferiti è vuota!"
+    }
+}

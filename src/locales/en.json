@@ -1,0 +1,16 @@
+{
+    "info": "Info about the application",
+    "timers": {
+        "title": "All timers",
+        "search": "Search for name or producer",
+        "example": "ie. spaghetti",
+        "select": "Search for producer",
+        "none": "No product available!"
+    },
+    "favorites": {
+        "title": "Your favorites",
+        "add": "Add to favorites",
+        "remove": "Remove from favorites",
+        "none": "Your favorites list is empty!"
+    }
+}

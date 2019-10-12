@@ -1,0 +1,47 @@
+[
+    {
+        "producer": "Barilla", "line": "I classici", "name": "Anelli siciliani", "type": "short", "time": 13,
+        "url": "https://www.barilla.com/it-it/prodotti/pasta/i-classici/anelli-siciliani",
+        "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/pack_anelli_siciliani.png?la=it-IT"
+    },
+    {
+        "producer": "Barilla", "line": "I classici", "name": "Anellini", "type": "short", "time": 6,
+        "url": "https://www.barilla.com/it-it/prodotti/pasta/i-classici/anellini",
+        "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/anellini_33_500g_f_hr_pack.png?la=it-IT"
+    },
+    {
+        "producer": "Barilla", "line": "I classici", "name": "Bavette", "type": "long", "time": 8,
+        "url": "https://www.barilla.com/it-it/prodotti/pasta/i-classici/bavette",
+        "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/bavette_13_500g_f_hr_pack.png?la=it-IT"
+    },
+    {
+        "producer": "Garofalo", "line": "Pasta di semola di grano duro", "name": "Bucatini", "type": "long", "time": 9,
+        "url": "https://www.pasta-garofalo.com/it/prodotto/n-14-bucatini/",
+        "image": "https://www.pasta-garofalo.com/it/wp-content/uploads/sites/5/2019/07/bucatini-igp-pasta-garofalo-durum-wheat-semolina-pasta-585x500.jpg"
+    },
+    {
+        "producer": "Garofalo", "line": "Pasta di semola di grano duro", "name": "Capellini", "type": "long", "time": 4,
+        "url": "https://www.pasta-garofalo.com/it/prodotto/n-02-capellini/",
+        "image": "https://www.pasta-garofalo.com/it/wp-content/uploads/sites/5/2019/07/capellini-pasta-garofalo-durum-wheat-semolina-pasta-585x500-1.jpg"
+    },
+    {
+        "producer": "Garofalo", "line": "Pasta di semola di grano duro", "name": "Boccole", "type": "short", "time": 13,
+        "url": "https://www.pasta-garofalo.com/it/prodotto/n-66-6-boccole/",
+        "image": "https://www.pasta-garofalo.com/it/wp-content/uploads/sites/5/2019/07/boccole-igp-pasta-garofalo-durum-wheat-semolina-pasta-585x500.jpg"
+    },
+    {
+        "producer": "De Cecco", "line": "Pasta di semola", "name": "Bombardoni", "type": "short", "time": 13,
+        "url": "https://www.dececco.com/it_it/product/bombardoni-rigati-n-128/",
+        "image": "http://www.dececco.com/wp-content/uploads/2018/05/0SX3128-BOMBRDONI-RIGATI-3.png"
+    },
+    {
+        "producer": "De Cecco", "line": "Pasta di semola", "name": "Bucatini", "type": "long", "time": 9,
+        "url": "https://www.dececco.com/it_it/product/bucatini-n-15/",
+        "image": "https://www.dececco.com/wp-content/uploads/2019/09/QSX0015-BUCATINI-3.png"
+    },
+    {
+        "producer": "De Cecco", "line": "Pasta di semola", "name": "Calamarata", "type": "short", "time": 14,
+        "url": "https://www.dececco.com/it_it/product/calamarata-n-129/",
+        "image": "http://www.dececco.com/wp-content/uploads/2018/05/0SX3129-CALAMARATA-3.png"
+    }
+]
