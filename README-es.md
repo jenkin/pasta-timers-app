@@ -1,5 +1,7 @@
 # Pasta Timers App
 
+| [Italiano](https://github.com/jenkin/pasta-timers-app/blob/master/README.md) | [English](https://github.com/jenkin/pasta-timers-app/blob/master/README-en.md) | [Español](https://github.com/jenkin/pasta-timers-app/blob/master/README-es.md) | [...](https://github.com/jenkin/pasta-timers-app/issues/15)
+
 Pasta Timers muestra los tiempos de cocción recomendados para los tipos y marcas de pastas más comunes del mercado.
 
 ![screenshot](https://repository-images.githubusercontent.com/214686946/4b0a8980-ed27-11e9-827f-88954c137291)
