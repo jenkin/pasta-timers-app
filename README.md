@@ -21,6 +21,8 @@ Tocca l'immagine di una pasta per aprire la pagina ufficiale del produttore e sc
 
 L'applicazione è una Progressive Web App basata su React e Create React App.
 Il database dei tempi di cottura è un file statico in `build/timers.json`.
+Lo schema dati è descritto mediante [json-schema](https://json-schema.org/) nel file `timers.schema.json`.
+Puoi verificare la validità del database mediante [ajv-cli](https://github.com/jessedc/ajv-cli): `npx ajv -s timers.schema.json -d public/timers.json`.
 
 Per contribuire al database apri una issue con queste informazioni:
 

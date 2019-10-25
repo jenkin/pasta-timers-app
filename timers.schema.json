@@ -1,0 +1,64 @@
+{
+    "title": "Pasta cooking timers",
+    "description": "Timers representing cooking time of pasta",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/timer"
+    },
+    "definitions": {
+        "timer": {
+            "title": "Pasta cooking timer",
+            "description": "Timer representing cooking time of a kind of pasta",
+            "type": "object",
+            "required": ["producer","name","type","time"],
+            "properties": {
+                "producer": {
+                    "title": "Producer",
+                    "description": "Name of pasta producer",
+                    "type": "string",
+                    "examples": ["Barilla"]
+                },
+                "line": {
+                    "title": "Line",
+                    "description": "Name of pasta line",
+                    "type": "string",
+                    "examples": ["I classici"]
+                },
+                "name": {
+                    "title": "Name",
+                    "description": "Name of pasta",
+                    "type": "string",
+                    "examples": ["Spaghetti"]
+                },
+                "type": {
+                    "title": "Type",
+                    "description": "Type of pasta",
+                    "type": "string",
+                    "enum": ["short","long"],
+                    "examples": ["long"]
+                },
+                "time": {
+                    "title": "Time",
+                    "description": "Cooking time in minutes",
+                    "type": "integer",
+                    "minimum": 1,
+                    "examples": [9]
+                },
+                "url": {
+                    "title": "Web page",
+                    "description": "Official web page of pasta on producer website",
+                    "type": "string",
+                    "format": "uri",
+                    "examples": ["https://www.barilla.com/it-it/prodotti/pasta/i-classici/spaghetti"]
+                },
+                "image": {
+                    "title": "Image",
+                    "description": "Official image of pasta on producer website",
+                    "type": "string",
+                    "format": "uri",
+                    "examples": ["https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/spaghetti_5_500g_f_hr_pack.png"]
+                }
+            }
+        }
+    }
+}

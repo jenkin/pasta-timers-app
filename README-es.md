@@ -20,7 +20,9 @@ Toca la imagen de una pasta para abrir su página oficial de productos y descubr
 ## Cómo contribuir
 
 La aplicación es una Progressive Web App basada en React y Create React App.
-La base de datos de los tiempos de cocción es un archivo estático en build/timers.json.
+La base de datos de los tiempos de cocción es un archivo estático en `build/timers.json`.
+> Lo schema dati è descritto mediante [json-schema](https://json-schema.org/) nel file `timers.schema.json`.
+> Puoi verificare la validità del database mediante [ajv-cli](https://github.com/jessedc/ajv-cli): `npx ajv -s timers.schema.json -d public/timers.json`.
 
 Per contribuire al database apri una issue con queste informazioni:
 Para contribuir a la base de datos, abra un issue con la siguiente información.

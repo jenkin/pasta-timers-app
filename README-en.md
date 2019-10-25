@@ -20,7 +20,9 @@ Touch the image of a pasta to open the official producers web page and discover 
 ## How to contribute
 
 This app is a Progressive Web App based on React and create React App.
-The cooking time database is a static file under build/timers.json.
+The cooking time database is a static file under `build/timers.json`.
+Data schema is described following [json-schema](https://json-schema.org/) specifications in `timers.schema.json`.
+You can validate database against the provided schema using [ajv-cli](https://github.com/jessedc/ajv-cli): `npx ajv -s timers.schema.json -d public/timers.json`.
 
 To contribute the database open an issue containing the following information:
 

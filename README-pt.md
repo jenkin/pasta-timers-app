@@ -20,7 +20,9 @@ Toque na imagem da massa para abrir a página oficial dos produtores e descobrir
 ## Como contribuir
 
 Esta aplicação é um Progressive Web App baseado no React e Create React App.
-O banco de dados das cocções é um arquivo estático localizado em `build/timers.json`
+O banco de dados das cocções é um arquivo estático localizado em `build/timers.json`.
+> Lo schema dati è descritto mediante [json-schema](https://json-schema.org/) nel file `timers.schema.json`.
+> Puoi verificare la validità del database mediante [ajv-cli](https://github.com/jessedc/ajv-cli): `npx ajv -s timers.schema.json -d public/timers.json`.
 
 Para contribuir para o banco de dados abra uma issue com as seguintes informações:
 
