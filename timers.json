@@ -15,6 +15,21 @@
         "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/bavette_13_500g_f_hr_pack.png?la=it-IT"
     },
     {
+        "producer": "Barilla", "line": "I classici", "name": "Bavettine", "type": "long", "time": 6,
+        "url": "https://www.barilla.com/it-it/prodotti/pasta/i-classici/bavettine",
+        "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/bavettine_11_500g_f_hr_pack.png?la=it-IT"
+    },
+    {
+        "producer": "Barilla", "line": "I classici", "name": "Bucatini", "type": "long", "time": 8,
+        "url": "https://www.barilla.com/it-it/prodotti/pasta/i-classici/bucatini",
+        "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/bucatini_9_500g_f_hr_pack.png?la=it-IT"
+    },
+    {
+        "producer": "Barilla", "line": "I classici", "name": "Capellini", "type": "long", "time": 3,
+        "url": "https://www.barilla.com/it-it/prodotti/pasta/i-classici/capellini",
+        "image": "https://www.barilla.com//-/media/images/it_it/products/groups/ranges/classic-blue-box/capellini-pack.png?la=it-IT"
+    },
+    {
         "producer": "Garofalo", "line": "Pasta di semola di grano duro", "name": "Bucatini", "type": "long", "time": 9,
         "url": "https://www.pasta-garofalo.com/it/prodotto/n-14-bucatini/",
         "image": "https://www.pasta-garofalo.com/it/wp-content/uploads/sites/5/2019/07/bucatini-igp-pasta-garofalo-durum-wheat-semolina-pasta-585x500.jpg"
