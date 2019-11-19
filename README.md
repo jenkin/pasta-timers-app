@@ -1,6 +1,6 @@
 # Pasta Timers App
 
-| [Italiano](https://github.com/jenkin/pasta-timers-app/blob/master/README.md) | [English](https://github.com/jenkin/pasta-timers-app/blob/master/README-en.md) | [Español](https://github.com/jenkin/pasta-timers-app/blob/master/README-es.md) | [Português](https://github.com/jenkin/pasta-timers-app/blob/master/README-pt.md) | [...](https://github.com/jenkin/pasta-timers-app/issues/15)
+| [Italiano](https://github.com/jenkin/pasta-timers-app/blob/master/README.md) | [English](https://github.com/jenkin/pasta-timers-app/blob/master/README-en.md) | [Español](https://github.com/jenkin/pasta-timers-app/blob/master/README-es.md) | [Português](https://github.com/jenkin/pasta-timers-app/blob/master/README-pt.md) | [简体中文](https://github.com/jenkin/pasta-timers-app/blob/master/README-zh_HANS.md) | [...](https://github.com/jenkin/pasta-timers-app/issues/15)
 
 Pasta Timers mostra i tempi di cottura raccomandati per le tipologie e i marchi di pasta più comuni sul mercato.
 

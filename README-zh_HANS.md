@@ -1,6 +1,6 @@
 # 面食计时器应用
 
-| [义大利语](https://github.com/jenkin/pasta-timers-app/blob/master/README.md) | [英文](https://github.com/jenkin/pasta-timers-app/blob/master/README-en.md) | [西班牙文](https://github.com/jenkin/pasta-timers-app/blob/master/README-es.md) | [葡萄牙语](https://github.com/jenkin/pasta-timers-app/blob/master/README-pt.md) | [简体中文](https://github.com/jenkin/pasta-timers-app/blob/master/README-zh_HANS.md) | [...](https://github.com/jenkin/pasta-timers-app/issues/15)
+| [Italiano](https://github.com/jenkin/pasta-timers-app/blob/master/README.md) | [English](https://github.com/jenkin/pasta-timers-app/blob/master/README-en.md) | [Español](https://github.com/jenkin/pasta-timers-app/blob/master/README-es.md) | [Português](https://github.com/jenkin/pasta-timers-app/blob/master/README-pt.md) | [简体中文](https://github.com/jenkin/pasta-timers-app/blob/master/README-zh_HANS.md) | [...](https://github.com/jenkin/pasta-timers-app/issues/15)
 
 意大利面定时器显示了市场上最常见类型和品牌的意大利面的建议烹饪时间。
 
