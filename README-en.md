@@ -2,13 +2,13 @@
 
 | [Italiano](https://github.com/jenkin/pasta-timers-app/blob/master/README.md) | [English](https://github.com/jenkin/pasta-timers-app/blob/master/README-en.md) | [Español](https://github.com/jenkin/pasta-timers-app/blob/master/README-es.md) | [Português](https://github.com/jenkin/pasta-timers-app/blob/master/README-pt.md) | [...](https://github.com/jenkin/pasta-timers-app/issues/15)
 
-Pasta Timers shows reccomended cooking time for more common types and brands in the market
+Pasta Timers shows recommended cooking time for common types and brands of pasta in the market.
 
 ![screenshot](https://repository-images.githubusercontent.com/214686946/4b0a8980-ed27-11e9-827f-88954c137291)
 
 ## How to install
 
-You are able to use the application on the browser or install it into the phone clicking on Menù > Aggiungi ant Home screen (for Chrome).
+You can use the application in the browser or install it on your phone by clicking on Menù > Aggiungi ant Home screen (for Chrome).
 
 ## How to use it
 
