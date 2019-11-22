@@ -8,7 +8,13 @@ Pasta Timers mostra i tempi di cottura raccomandati per le tipologie e i marchi 
 
 ## Come si installa
 
+### Web
+
 Puoi usare questa applicazione dal browser oppure installarla sul tuo smartphone cliccando su Menù > Aggiungi a schermata Home (su Chrome).
+
+### Telegram
+
+Grazie al mitico [@piersoft](https://github.com/piersoft) è ora possibile avere i tempi di cottura della pasta a portata di chat, basta attivare il bot [pastatimersbot](https://t.me/pastatimersbot) su Telegram (se non hai Telegram, [dagli un'occhiata!](https://telegram.org/)).
 
 ## Come si usa
 
