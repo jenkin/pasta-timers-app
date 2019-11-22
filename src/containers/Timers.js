@@ -15,6 +15,8 @@ import Chip from '@material-ui/core/Chip'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
 import FavoriteIcon from '@material-ui/icons/Favorite'
 
+import { ReactComponent as Logo } from '../logo.svg'
+
 import { timersSelector } from '../selectors/timers'
 import { favoritesSelector } from '../selectors/favorites'
 import { producersSelector } from '../selectors/producers'
@@ -29,10 +31,18 @@ import { Timer } from '../components/Timer'
 const useStyles = makeStyles(theme => ({
     chip: {
         opacity: 0.5,
-        margin: "0 0.5em",
+        marginRight: theme.spacing(1),
         "&.active": {
             opacity: 1
         }
+    },
+    text: {
+        marginTop: theme.spacing(2),
+        marginBottom: theme.spacing(2)
+    },
+    icon: {
+        width: "50%",
+        marginTop: theme.spacing(6)
     }
 }))
 
@@ -57,7 +67,7 @@ export default function Preferences() {
         <>
             <TextField
                 label={t("timers.search")}
-                style={{ margin: 16 }}
+                className={classes.text}
                 placeholder={t("timers.example")}
                 fullWidth
                 margin="normal"
@@ -72,7 +82,7 @@ export default function Preferences() {
                     .map(producer => (
                         <Chip
                             key={producer}
-                            className={classnames(classes.chip, !selectValue || producer === selectValue ? "active" : "")}
+                            className={classnames(classes.chip, producer === selectValue ? "active" : "")}
                             color="primary"
                             label={producer} title={t("timers.select")}
                             component="a" href={`#${producer}`} clickable
@@ -85,11 +95,11 @@ export default function Preferences() {
                     (() => {
 
                         let filteredTimers = timers
-                            .filter(timer => !searchValue || includes(timer.name.toLowerCase(), searchValue.toLowerCase().trim()))
+                            .filter(timer => !(searchValue.length > (selectValue ? 0 : 2)) || includes(timer.name.toLowerCase(), searchValue.toLowerCase().trim()))
                             .filter(timer => !selectValue || timer.producer === selectValue)
 
                         return (
-                            filteredTimers.length
+                            filteredTimers.length && filteredTimers.length !== timers.length
                             ?
                             filteredTimers
                                 .map(timer => {
@@ -97,7 +107,7 @@ export default function Preferences() {
                                     return (
                                         <Timer
                                             key={timer.id}
-                                            image={timer.image}
+                                            id={timer.id}
                                             title={timer.name}
                                             subtitle={timer.producer}
                                             suptitle={timer.line}
@@ -110,14 +120,18 @@ export default function Preferences() {
                                     )
                                 })
                             :
-                            <Typography>{t("timers.none")}</Typography>
+                            <Typography align="center" gutterBottom>
+                                <Logo className={classes.icon}/>
+                            </Typography>
                         )
                     })()
                 }
             </List>
         </>
         :
-        <Typography>{t("timers.none")}</Typography>
+        <Typography align="center" gutterBottom>
+            <Logo className={classes.icon}/>
+        </Typography>
     )
 
 }

@@ -4,6 +4,8 @@ import { makeStyles } from '@material-ui/core/styles'
 import Typography from '@material-ui/core/Typography'
 import Icon from '@material-ui/core/Icon'
 
+import { ReactComponent as Logo } from '../logo.svg'
+
 const useStyles = makeStyles(theme => ({
     icon: {
         width: "25%",
@@ -95,8 +97,7 @@ export default function Info() {
             </Typography>
 
             <Typography align="center" gutterBottom>
-                <Icon className={classes.icon}><a href="https://pastatimers.app" rel="noopener noreferrer" target="_blank"><img src="logo.svg" alt="logo" /></a></Icon>
-                <Icon className={classes.icon}><a href="https://github.com/jenkin/pasta-timers-app" rel="noopener noreferrer" target="_blank"><img src="github.svg" alt="github" /></a></Icon>
+                <Icon className={classes.icon}><a href="https://pastatimers.app" rel="noopener noreferrer" target="_blank"><Logo/></a></Icon>
             </Typography>
 
         </>

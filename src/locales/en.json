@@ -4,8 +4,7 @@
         "title": "All timers",
         "search": "Search for name or producer",
         "example": "ie. spaghetti",
-        "select": "Search for producer",
-        "none": "No product available!"
+        "select": "Search for producer"
     },
     "favorites": {
         "title": "Your favorites",

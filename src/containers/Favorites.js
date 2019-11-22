@@ -41,8 +41,9 @@ export default function Preferences() {
                         return (
                             <Timer
                                 key={timer.id}
-                                image={timer.image}
+                                id={timer.id}
                                 title={timer.name}
+                                suptitle={timer.line}
                                 subtitle={timer.producer}
                                 label={isFavorite ? t("favorites.remove") : t("favorites.add")}
                                 link={timer.url}

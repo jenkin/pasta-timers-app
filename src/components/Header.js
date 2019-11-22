@@ -12,6 +12,8 @@ import IconButton from '@material-ui/core/IconButton'
 
 import InfoIcon from '@material-ui/icons/Info'
 
+import { ReactComponent as Logo } from '../logo.svg'
+
 const useStyles = makeStyles(theme => ({
     button: {
         color: "white",
@@ -35,7 +37,7 @@ export default function Header() {
                 <IconButton
                     edge="start" color="inherit" aria-label="logo" title="logo"
                 >
-                    <Icon><img src="logo.svg" alt="logo" /></Icon>
+                    <Icon><Logo/></Icon>
                 </IconButton>
                 <Typography
                     variant="h6" className={classes.title}

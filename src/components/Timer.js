@@ -9,6 +9,10 @@ import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
 import Avatar from '@material-ui/core/Avatar'
 import IconButton from '@material-ui/core/IconButton'
 
+import classnames from 'classnames'
+
+import * as jdenticon from "jdenticon"
+
 const useStyles = makeStyles(theme => ({
     button: {
         width: "100%"
@@ -23,6 +27,10 @@ const useStyles = makeStyles(theme => ({
         backgroundSize: "cover",
         backgroundPosition: "50% 50%"
     },
+    icon: {
+        paddingLeft: theme.spacing(0),
+        paddingRight: theme.spacing(0)
+    },
     time: {
         alignItems: "baseline",
         "& *": {
@@ -32,7 +40,7 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export function Timer({
-    image = "",
+    id = "",
     title = "",
     subtitle = "",
     suptitle = "",
@@ -46,24 +54,32 @@ export function Timer({
     const classes = useStyles()
 
     return (
-        <ListItem title={`${suptitle} - ${title} - ${subtitle}`}>
+        <ListItem disableGutters divider title={`${suptitle} - ${title} - ${subtitle}`}>
 
             <ListItemAvatar>
                 <Avatar className={classes.avatar}>
-                    <a className={classes.image} style={{ backgroundImage: `url(${image})` }} href={link} target="_blank" rel="noopener noreferrer"> </a>
+                    <a
+                        className={classes.image}
+                        href={link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        dangerouslySetInnerHTML={{__html: jdenticon.toSvg(id, 40)}}
+                    ></a>
                 </Avatar>
             </ListItemAvatar>
 
-            <ListItemText primary={title} secondary={subtitle} />
+            <ListItemText primary={title} secondary={`${subtitle} - ${suptitle}`} />
 
             <ListItemSecondaryAction>
 
-                <IconButton className={classes.time}>
+                <IconButton className={classnames(classes.icon, classes.time)} disableRipple disableFocusRipple>
                     <Typography variant="h4">{time}</Typography>
-                    <Typography variant="subtitle2">min</Typography>
+                    {/*<Typography variant="subtitle2">min</Typography>*/}
                 </IconButton>
 
                 <IconButton
+                    size="small"
+                    className={classes.icon}
                     edge="end" aria-label="favorite" title={label}
                     onClick={onClick}
                 >

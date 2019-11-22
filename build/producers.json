@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Barilla",
+        "timers": "timers/barilla.json"
+    },
+    {
+        "name": "De Cecco",
+        "timers": "timers/de-cecco.json"
+    },
+    {
+        "name": "Garofalo",
+        "timers": "timers/garofalo.json"
+    }
+]

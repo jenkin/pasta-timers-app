@@ -1,0 +1,31 @@
+{
+    "title": "Pasta producers",
+    "description": "Brands of producers of pasta",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/producer"
+    },
+    "definitions": {
+        "producer": {
+            "title": "Pasta producer",
+            "description": "Brand of producers of pasta",
+            "type": "object",
+            "required": ["producer","timers"],
+            "properties": {
+                "name": {
+                    "title": "Name",
+                    "description": "Name of pasta producer",
+                    "type": "string",
+                    "examples": ["Barilla"]
+                },
+                "timers": {
+                    "title": "Timers data file",
+                    "description": "Json file with timers",
+                    "type": "string",
+                    "format": "uri",
+                    "examples": ["/timers/barilla.json"]
+                }
+            }
+        }
+    }
+}

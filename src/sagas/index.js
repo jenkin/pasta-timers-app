@@ -1,19 +1,37 @@
-import { call, put, takeEvery } from 'redux-saga/effects'
+import { call, put, all, takeEvery } from 'redux-saga/effects'
 
 import { remove } from 'lodash-es'
 
 import {
+    GET_PRODUCERS_REQ,
+    //GET_PRODUCERS_RES_SUCCESS,
+    //GET_PRODUCERS_RES_WARNING,
+    GET_PRODUCERS_RES_ERROR,
     GET_TIMERS_REQ,
     GET_TIMERS_RES_SUCCESS,
     GET_TIMERS_RES_WARNING,
     GET_TIMERS_RES_ERROR,
     GET_FAVORITES_REQ,
     GET_FAVORITES_SUCCESS,
+    //GET_FAVORITES_ERROR,
     ADD_FAVORITE,
     REMOVE_FAVORITE,
 } from '../config/constants'
 
 import Api from '../config/api'
+
+function* fetchProducers(action) {
+    try {
+        const response = yield call(Api, action.payload)
+        yield all(response.data.map(producer => put({ type: GET_TIMERS_REQ, payload: { url: producer.timers } })))
+    } catch (e) {
+        yield put({ type: GET_PRODUCERS_RES_ERROR, message: e.message })
+    }
+}
+
+export function* producersFetchSaga() {
+    yield takeEvery(GET_PRODUCERS_REQ, fetchProducers)
+}
 
 function* fetchTimers(action) {
     try {

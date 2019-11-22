@@ -1,12 +1,12 @@
 import {
-    GET_TIMERS_REQ,
+    GET_PRODUCERS_REQ,
     GET_FAVORITES_REQ,
     ADD_FAVORITE,
     REMOVE_FAVORITE,
 } from '../config/constants'
 
 export function getTimers() {
-    return { type: GET_TIMERS_REQ, payload: { url: "/timers.json" } }
+    return { type: GET_PRODUCERS_REQ, payload: { url: "producers.json" } }
 }
 
 export function getFavorites() {

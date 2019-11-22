@@ -4,6 +4,7 @@ import { routerMiddleware } from 'connected-react-router'
 import createSagaMiddleware from 'redux-saga'
 
 import {
+    producersFetchSaga,
     timersFetchSaga,
     favoritesFetchSaga,
     favoritesUpdateSaga
@@ -27,6 +28,7 @@ export const store = createStore(
 
 //store.subscribe(() => console.log("store", store.getState()))
 
+sagaMiddleware.run(producersFetchSaga)
 sagaMiddleware.run(timersFetchSaga)
 sagaMiddleware.run(favoritesFetchSaga)
 sagaMiddleware.run(favoritesUpdateSaga)
