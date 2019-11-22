@@ -10,7 +10,7 @@
             "title": "Pasta producer",
             "description": "Brand of producers of pasta",
             "type": "object",
-            "required": ["producer","timers"],
+            "required": ["name","timers"],
             "properties": {
                 "name": {
                     "title": "Name",
@@ -22,8 +22,8 @@
                     "title": "Timers data file",
                     "description": "Json file with timers",
                     "type": "string",
-                    "format": "uri",
-                    "examples": ["/timers/barilla.json"]
+                    "format": "uri-reference",
+                    "examples": ["timers/barilla.json"]
                 }
             }
         }

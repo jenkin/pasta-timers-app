@@ -20,16 +20,15 @@ Tocca l'immagine di una pasta per aprire la pagina ufficiale del produttore e sc
 ## Come contribuire
 
 L'applicazione è una Progressive Web App basata su React e Create React App.
-Il database dei tempi di cottura è un file statico in `build/timers.json`.
-Lo schema dati è descritto mediante [json-schema](https://json-schema.org/) nel file `timers.schema.json`.
-Puoi verificare la validità del database mediante [ajv-cli](https://github.com/jessedc/ajv-cli): `npx ajv -s timers.schema.json -d public/timers.json`.
+Il database dei tempi di cottura è composto da file statici in `public/timers/`, indicati nel file `public/producers.json`.
+Lo schema dati è descritto mediante [json-schema](https://json-schema.org/) nei file `producers.schema.json` e `timers.schema.json`.
+Puoi verificare la validità del database mediante [ajv-cli](https://github.com/jessedc/ajv-cli): `bash validate.sh`.
 
 Per contribuire al database apri una issue con queste informazioni:
 
 * nome
 * marca
 * linea
-* tipo di pasta (corta o lunga)
 * tempo di cottura al dente (in minuti)
 * url della pagina ufficiale (sul sito del produttore)
 * url dell'immagine ufficiale (sul sito del produttore)

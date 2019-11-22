@@ -10,7 +10,7 @@
             "title": "Pasta cooking timer",
             "description": "Timer representing cooking time of a kind of pasta",
             "type": "object",
-            "required": ["producer","name","type","time"],
+            "required": ["producer","name","time"],
             "properties": {
                 "producer": {
                     "title": "Producer",
@@ -29,13 +29,6 @@
                     "description": "Name of pasta",
                     "type": "string",
                     "examples": ["Spaghetti"]
-                },
-                "type": {
-                    "title": "Type",
-                    "description": "Type of pasta",
-                    "type": "string",
-                    "enum": ["short","long"],
-                    "examples": ["long"]
                 },
                 "time": {
                     "title": "Time",
